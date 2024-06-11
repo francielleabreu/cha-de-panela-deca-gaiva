@@ -1,0 +1,74 @@
+<p-dialog
+  header="{{ item.title }}"
+  [(visible)]="visible"
+  [modal]="true"
+  [breakpoints]="{ '1199px': '75vw', '575px': '90vw' }"
+  [style]="{ width: '50vw' }"
+  [draggable]="false"
+  [resizable]="false"
+  (onHide)="hide()"
+>
+  <div class="first-screen" *ngIf="firstScreen">
+    <h1>
+      {{ item.description }}
+    </h1>
+    <h2>R$ {{ item.price }}</h2>
+    <div class="text-center">
+      <h2>Como você quer fazer?</h2>
+      <p-button
+        label="Mandar o dinheiro"
+        class="w-100 mx-2"
+        (onClick)="copyPix()"
+      />
+
+      <p-button
+        label="Comprar eu mesmo"
+        class="w-100 mx-2"
+        (onClick)="copyPix()"
+      />
+    </div>
+
+    <p>Como vai funciona:</p>
+    <p>
+      <b>Envio do Valor:</b> Você pode enviar o valor do presente para o meu
+      irmão, Daniel Maria da Silva, via pix copia e cola. Ele é meio que o
+      "guardião dos fundos" por aqui. Ah, e não esqueça de clicar "Avisar por
+      WhatsApp", ele pode acabar comprando pizza (ele adora pizza).
+    </p>
+    <p>
+      <b>Compra e Entrega</b> Com o valor em mãos (e resistindo à tentação de
+      pedir pizza), Daniel vai realizar a compra do presente. Depois, ele vai se
+      transformar no entregador mais rápido da cidade (ou, na verdade, ele só
+      vai esperar a entrega padrão mesmo) e o presente será enviado diretamente
+      para Deca e Gaiva. Simples assim!
+    </p>
+    <p>
+      <b>Quer Comprar Você Mesmo?</b> Se você é do tipo que gosta de fazer as
+      coisas por conta própria e quer ter certeza de que Daniel não gastará tudo
+      em pizza, você pode optar por comprar o presente você mesmo. Nesse caso,
+      só precisa nos avisar mandando uma mensagem no WhatsApp que te enviamos o
+      endereço de entrega. Prometo que a resposta será rápida (a menos que seja
+      hora da pizza).
+    </p>
+    <p>
+      E pronto! De uma forma ou de outra, você vai garantir que Deca e Gaiva
+      recebam um presente incrível. E quem sabe, Daniel até ganhe uma fatia de
+      pizza como agradecimento.
+    </p>
+    <p-button
+      label="Copiar PIX copia e cola"
+      class="w-100 pe-5"
+      (onClick)="copyPix()"
+    />
+
+    <p-button label="Comprar eu mesmo" class="w-100" (onClick)="copyPix()" />
+  </div>
+  <div *ngIf="!firstScreen">
+    <h1>PIX copiado com sucesso!</h1>
+    <div class="d-flex justify-content-center align-items-center">
+      <img src="{{ gifUrl }}" alt="PIX" class="w-25" />
+    </div>
+
+    <p>Agora e so colar no seu aplicativo de banco e realizar o pagamento.</p>
+  </div>
+</p-dialog>

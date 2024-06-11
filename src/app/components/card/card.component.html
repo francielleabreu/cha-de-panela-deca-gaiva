@@ -1,0 +1,16 @@
+<p-card header="{{ item.title }}" subheader="{{ item.description }}">
+  <ng-template pTemplate="header">
+    <img alt="Card" src="{{ item.image }}" class="p-5" />
+  </ng-template>
+  <p>R$ {{ item.price }}</p>
+  <ng-template pTemplate="footer">
+    <div class="w-100">
+      <p-button
+        label="Presentear"
+        class="w-100 d-inline-grid"
+        (onClick)="showDialog()"
+      />
+      <app-dialog [item]="item" [visible]="visible" (onHide)="onDialogHide()" />
+    </div>
+  </ng-template>
+</p-card>

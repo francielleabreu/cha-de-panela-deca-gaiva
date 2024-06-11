@@ -1,0 +1,30 @@
+.site-header {
+    width: 100%;
+    height: 300px;
+    /* Defina a altura desejada para o header */
+    background-image: url('/assets/images/header.jpg');
+    background-size: cover;
+    /* A imagem cobre toda a área do header */
+    background-position: center;
+    /* Centraliza a imagem no meio do header */
+    position: relative;
+    /* Para posicionar o texto dentro do header */
+    display: flex;
+    align-items: center;
+    /* Centraliza o conteúdo verticalmente */
+    justify-content: center;
+    /* Centraliza o conteúdo horizontalmente */
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.5);
+    /* Fundo semitransparente para destacar o texto */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
