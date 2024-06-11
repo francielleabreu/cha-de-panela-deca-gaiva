@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --base-href=/cha-de-casa-nova/",
+    "build": "ng build --base-href=/cha-de-panela-deca-gaiva/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
