@@ -59,7 +59,7 @@ export class HomeComponent {
       image: 'https://a-static.mlcdn.com.br/1500x1500/porta-tempero-giratorio-inox-16-potes-quadrado-preto-dubai/dubaiimportadoraedistribuidora/842404/4492a3c76029620cf4833a6211d43491.jpeg',
     },
     {
-      title: 'Utensílios de Cozinha',
+      title: 'Utensílios Cozinha',
       description:
         'Jogo Kit Com 12 Peças Utensílios De Cozinha',
       price: 48,
@@ -75,7 +75,7 @@ export class HomeComponent {
       image: 'https://a-static.mlcdn.com.br/1500x1500/jogo-6-copo-de-vidro-casual-360ml-class-home/lizpremium/1646-6/ee586267080518c701738880507b8243.jpeg',
     },
     {
-      title: 'Tábua de Churrasco',
+      title: 'Tábua Churrasco',
       description:
         'Tábua De Churrasco Tramontina Em Madeira',
       price: 36,
@@ -131,7 +131,7 @@ export class HomeComponent {
       image: 'https://a-static.mlcdn.com.br/1500x1500/jogo-de-toalhas-de-banho-atlantica-delicata-garden-gengibre-4-pecas/magazineluiza/220559300/234182fac69df5cfadd0e2eab31b6161.jpg',
     },
     {
-      title: 'Jogo Potes de Vidro',
+      title: 'Potes de Vidro',
       description:
         'Jogo 4 Potes de Vidro Hermético Tampa 4 Travas 640ml',
       price: 53,
