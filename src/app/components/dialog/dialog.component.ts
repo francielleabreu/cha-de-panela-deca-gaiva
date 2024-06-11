@@ -6,11 +6,12 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
   styleUrls: ['./dialog.component.scss'],
 })
 export class DialogComponent {
-  gifs = ['mel.gif', 'leo.jpeg', 'leo-comemorando.gif'];
-
+  readonly gifs = ['mel.gif', 'leo.jpeg', 'leo-comemorando.gif'];
   gifUrl = this.randomImage();
 
   firstScreen = true;
+  sendMoney = false
+  sendPresent = false
 
   @Output() onHide: EventEmitter<void> = new EventEmitter<void>();
   @Input() item: any;
@@ -32,6 +33,19 @@ export class DialogComponent {
   hide() {
     this.firstScreen = true;
     this.visible = false;
+    this.sendMoney = false
+    this.sendPresent = false
     this.onHide.emit();
+  }
+
+  onChangeToSendMoney() {
+    this.sendMoney = true
+    this.sendPresent = false
+  }
+
+  onChangeToBuy() {
+    this.sendMoney = false
+    this.sendPresent = true
+
   }
 }
