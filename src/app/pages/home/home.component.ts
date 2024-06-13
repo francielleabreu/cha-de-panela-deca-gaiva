@@ -8,6 +8,30 @@ import { Component } from '@angular/core';
 export class HomeComponent {
   itens = [
     {
+      title: 'Porta Tempero',
+      description:
+        'Porta Tempero Giratório Inox 16 Potes',
+      price: 73,
+      link: 'https://www.magazineluiza.com.br/porta-tempero-giratorio-inox-16-potes-quadrado-preto-dubai/p/agkj36j1e7/ud/port/',
+      image: 'https://a-static.mlcdn.com.br/1500x1500/porta-tempero-giratorio-inox-16-potes-quadrado-preto-dubai/dubaiimportadoraedistribuidora/842404/4492a3c76029620cf4833a6211d43491.jpeg',
+    },
+    {
+      title: 'Utensílios Cozinha',
+      description:
+        'Jogo Kit Com 12 Peças Utensílios De Cozinha',
+      price: 55,
+      link: 'https://www.amazon.com.br/dp/B0BXQM66XR?ref=cm_sw_r_mwn_dp_6W5E84CVH1M4MZCFM8T4&ref_=cm_sw_r_mwn_dp_6W5E84CVH1M4MZCFM8T4&social_share=cm_sw_r_mwn_dp_6W5E84CVH1M4MZCFM8T4&language=en_US&th=1',
+      image: 'https://m.media-amazon.com/images/I/51c6OkPOPKL._AC_SL1000_.jpg',
+    },
+    {
+      title: 'Jogo de Copos',
+      description:
+        'Jogo 6 Copo de vidro 360ml',
+      price: 37,
+      link: 'https://www.magazineluiza.com.br/jogo-6-copo-de-vidro-casual-360ml-class-home/p/fkk1588ke9/ud/coco/',
+      image: 'https://a-static.mlcdn.com.br/1500x1500/jogo-6-copo-de-vidro-casual-360ml-class-home/lizpremium/1646-6/ee586267080518c701738880507b8243.jpeg',
+    },
+    {
       title: 'Airfryer',
       description:
         'Fritadeira Elétrica - 220V',
@@ -51,30 +75,6 @@ export class HomeComponent {
       image: 'https://a-static.mlcdn.com.br/1500x1500/liquidificador-philco-ph900-preto-com-filtro-12-velocidades-1200w/magazineluiza/021749100/187c83df39d333ecbf91e9f1e23b288e.jpg',
     },
     {
-      title: 'Porta Tempero',
-      description:
-        'Porta Tempero Giratório Inox 16 Potes',
-      price: 73,
-      link: 'https://www.magazineluiza.com.br/porta-tempero-giratorio-inox-16-potes-quadrado-preto-dubai/p/agkj36j1e7/ud/port/',
-      image: 'https://a-static.mlcdn.com.br/1500x1500/porta-tempero-giratorio-inox-16-potes-quadrado-preto-dubai/dubaiimportadoraedistribuidora/842404/4492a3c76029620cf4833a6211d43491.jpeg',
-    },
-    {
-      title: 'Utensílios Cozinha',
-      description:
-        'Jogo Kit Com 12 Peças Utensílios De Cozinha',
-      price: 48,
-      link: 'https://www.magazineluiza.com.br/jogo-kit-com-12-pecas-utensilios-de-cozinha-colheres-espatulas-pegador-silicone-copo-suporte-prime/p/de7d9kc0ca/ud/cjtu/',
-      image: 'https://a-static.mlcdn.com.br/1500x1500/jogo-kit-com-12-pecas-utensilios-de-cozinha-colheres-espatulas-pegador-silicone-copo-suporte-prime/magaprimer/3714731ae92111ed96804201ac185033/f8bffb9ea1fd7873b17cdac291574cfb.jpeg',
-    },
-    {
-      title: 'Jogo de Copos',
-      description:
-        'Jogo 6 Copo de vidro 360ml',
-      price: 37,
-      link: 'https://www.magazineluiza.com.br/jogo-6-copo-de-vidro-casual-360ml-class-home/p/fkk1588ke9/ud/coco/',
-      image: 'https://a-static.mlcdn.com.br/1500x1500/jogo-6-copo-de-vidro-casual-360ml-class-home/lizpremium/1646-6/ee586267080518c701738880507b8243.jpeg',
-    },
-    {
       title: 'Tábua Churrasco',
       description:
         'Tábua De Churrasco Tramontina Em Madeira',
@@ -82,14 +82,7 @@ export class HomeComponent {
       link: 'https://www.magazineluiza.com.br/tabua-de-churrasco-tramontina-em-madeira-com-acabamento-natural-28cm/p/ch9jch06h0/ud/tbpc/',
       image: 'https://a-static.mlcdn.com.br/1500x1500/tabua-de-churrasco-tramontina-em-madeira-com-acabamento-natural-28cm/alfixshop/11806/44496f0e31c7ed20482def9f287daea8.jpeg',
     },
-    {
-      title: 'Vale Casa Maria',
-      description:
-        'Valor para compra de acessórios de cozinha na Loja Casa Maria',
-      price: 350,
-      link: 'https://bazarcasamaria.com.br/',
-      image: 'assets/images/casa-maria.png',
-    },
+    
     {
       title: 'Porta Bolo',
       description:
@@ -153,6 +146,190 @@ export class HomeComponent {
       price: 500,
       link: 'https://tramontina.com.br/',
       image: 'assets/images/tramontina.png',
+    },
+    {
+      title: 'Vale Casa Maria',
+      description:
+        'Valor para compra de acessórios de cozinha na Loja Casa Maria',
+      price: 300,
+      link: 'https://bazarcasamaria.com.br/',
+      image: 'assets/images/casa-maria.png',
+    },
+    {
+      title: 'Organizadores',
+      description:
+        'Kit c/ 3 Caixas Organizadoras c/ Tampa',
+      price: 65,
+      link: 'https://www.amazon.com.br/dp/B09F71JWLX?ref=cm_sw_r_mwn_dp_YDV4NQP568TJAPE8AD13&ref_=cm_sw_r_mwn_dp_YDV4NQP568TJAPE8AD13&social_share=cm_sw_r_mwn_dp_YDV4NQP568TJAPE8AD13&language=en_US',
+      image: 'https://m.media-amazon.com/images/I/51nmB7PVXjL._AC_SL1200_.jpg',
+    },
+    {
+      title: 'Forma de Silicone',
+      description:
+        'Forma Quadrada de Silicone para Air Fryer',
+      price: 30,
+      link: 'https://www.amazon.com.br/dp/B0BPYT6NL2?ref=cm_sw_r_mwn_dp_B8YBGNTA63JHEDX3XB49&ref_=cm_sw_r_mwn_dp_B8YBGNTA63JHEDX3XB49&social_share=cm_sw_r_mwn_dp_B8YBGNTA63JHEDX3XB49&language=en_US',
+      image: 'https://m.media-amazon.com/images/I/61t32B8aPCL._AC_SL1500_.jpg',
+    },
+    {
+      title: 'Jogo de Facas',
+      description:
+        'Jogo Facas 6 Peças Tramontina',
+      price: 80,
+      link: 'https://www.amazon.com.br/dp/B07K32CH6K?ref=cm_sw_r_mwn_dp_4GZWZ6VRNKTMQJNJWPEN&ref_=cm_sw_r_mwn_dp_4GZWZ6VRNKTMQJNJWPEN&social_share=cm_sw_r_mwn_dp_4GZWZ6VRNKTMQJNJWPEN&language=en_US',
+      image: 'https://m.media-amazon.com/images/I/518Y9L-71uL._AC_SL1000_.jpg',
+    },
+    {
+      title: 'Mini Processador',
+      description:
+        'Mini Processador Triturador Mixer de Alimento Manual',
+      price: 13,
+      link: 'https://www.amazon.com.br/dp/B0B2QFX5SC?ref=cm_sw_r_mwn_dp_D2MYWA2QSQXNJTN96HPR&ref_=cm_sw_r_mwn_dp_D2MYWA2QSQXNJTN96HPR&social_share=cm_sw_r_mwn_dp_D2MYWA2QSQXNJTN96HPR&language=en_US',
+      image: 'https://m.media-amazon.com/images/I/51Wh9sy5i6L._AC_SL1500_.jpg',
+    },
+    {
+      title: 'Espátula Silicone',
+      description:
+        'Utensílios Espátula de Silicone',
+      price: 13,
+      link: 'https://www.amazon.com.br/dp/B07D1K5BVP?ref=cm_sw_r_mwn_dp_E00JJ9XBS656VQGA6FR0&ref_=cm_sw_r_mwn_dp_E00JJ9XBS656VQGA6FR0&social_share=cm_sw_r_mwn_dp_E00JJ9XBS656VQGA6FR0&language=en_US&th=1',
+      image: 'https://m.media-amazon.com/images/I/31JsH9lpJ7L._AC_SL1000_.jpg',
+    },
+    {
+      title: 'Descanso Panela',
+      description:
+        'Descanso Panela Bambu 6 unidades',
+      price: 80,
+      link: 'https://www.amazon.com.br/dp/B07XH4P2V9?ref=cm_sw_r_mwn_dp_TQA45WTJBS7A6WT3D5DJ&ref_=cm_sw_r_mwn_dp_TQA45WTJBS7A6WT3D5DJ&social_share=cm_sw_r_mwn_dp_TQA45WTJBS7A6WT3D5DJ&language=en_US&th=1',
+      image: 'https://m.media-amazon.com/images/I/61Av50lZaNL._AC_SL1000_.jpg',
+    },
+    {
+      title: 'Tesoura Cozinha',
+      description:
+        'Tesoura Inox para Cozinha ',
+      price: 20,
+      link: 'https://www.amazon.com.br/dp/B07QSB4WGQ?ref=cm_sw_r_mwn_dp_8PCN649XKN0ZE9PS6GTF_1&ref_=cm_sw_r_mwn_dp_8PCN649XKN0ZE9PS6GTF_1&social_share=cm_sw_r_mwn_dp_8PCN649XKN0ZE9PS6GTF_1&language=en_US',
+      image: 'https://m.media-amazon.com/images/I/51kbkByBMGL._AC_SL1000_.jpg',
+    },
+    {
+      title: 'Secador de Salada',
+      description:
+        'Secador De Salada 4 L ',
+      price: 54,
+      link: 'https://www.amazon.com.br/dp/B07CFW6DP2?ref=cm_sw_r_mwn_dp_8MJJE5JKTPTVX704NWWA&ref_=cm_sw_r_mwn_dp_8MJJE5JKTPTVX704NWWA&social_share=cm_sw_r_mwn_dp_8MJJE5JKTPTVX704NWWA&language=en_US',
+      image: 'https://m.media-amazon.com/images/I/41+NvNgl76L._AC_SL1000_.jpg',
+    },
+    {
+      title: 'Rolo para Massa',
+      description:
+        'Rolo Para Massa',
+      price: 16,
+      link: 'https://www.amazon.com.br/dp/B07F8LF79X?ref=cm_sw_r_mwn_dp_QJY1VQBZ1W84GFNAYFG2&ref_=cm_sw_r_mwn_dp_QJY1VQBZ1W84GFNAYFG2&social_share=cm_sw_r_mwn_dp_QJY1VQBZ1W84GFNAYFG2&language=en_US',
+      image: 'https://m.media-amazon.com/images/I/61M7bJtKLxL._AC_SL1500_.jpg',
+    },
+    {
+      title: 'Amassador',
+      description:
+        'Amassador de Batatas',
+      price: 36,
+      link: 'https://www.amazon.com.br/dp/B074HR9K2S?ref=cm_sw_r_mwn_dp_CSVMHDK50FB452FVGHNN&ref_=cm_sw_r_mwn_dp_CSVMHDK50FB452FVGHNN&social_share=cm_sw_r_mwn_dp_CSVMHDK50FB452FVGHNN&language=en_US',
+      image: 'https://m.media-amazon.com/images/I/410EIT-JTRS._AC_SL1181_.jpg',
+    },
+    {
+      title: 'Jogo Peneiras',
+      description:
+        'Jogo 3 peneiras em Aço Kit',
+      price: 40,
+      link: 'https://www.amazon.com.br/dp/B0CX26T7KZ?ref=cm_sw_r_mwn_dp_2FBNZ7ZP2B5PJDJ9K861&ref_=cm_sw_r_mwn_dp_2FBNZ7ZP2B5PJDJ9K861&social_share=cm_sw_r_mwn_dp_2FBNZ7ZP2B5PJDJ9K861&language=en_US',
+      image: 'https://m.media-amazon.com/images/I/61UbDELFHfL._AC_SL1200_.jpg',
+    },   
+    {
+      title: 'Kit Potes Plásticos',
+      description:
+        'Kit Fácil com 10 Potes Plásticos Quadrados 530ml',
+      price: 47,
+      link: 'https://www.amazon.com.br/dp/B0C4LW7VTY?ref=cm_sw_r_mwn_dp_ASRQWQW5A1FQHZ4KVVPZ&ref_=cm_sw_r_mwn_dp_ASRQWQW5A1FQHZ4KVVPZ&social_share=cm_sw_r_mwn_dp_ASRQWQW5A1FQHZ4KVVPZ&language=en_US',
+      image: 'https://m.media-amazon.com/images/I/61N2YZf3I6L._AC_SX679_.jpg',
+    }, 
+    {
+      title: 'Kit Potes Plásticos',
+      description:
+        'Kit Fácil com 10 Potes Plásticos Retangulares de 280ml',
+      price: 38,
+      link: 'https://www.amazon.com.br/dp/B0C4LSZTW9?ref=cm_sw_r_mwn_dp_7SXTXNTGWBEM1GDVH4RN&ref_=cm_sw_r_mwn_dp_7SXTXNTGWBEM1GDVH4RN&social_share=cm_sw_r_mwn_dp_7SXTXNTGWBEM1GDVH4RN&language=en_US',
+      image: 'https://m.media-amazon.com/images/I/61Kt4+lfmPL._AC_SL1500_.jpg',
+    },
+    {
+      title: 'Kit Potes Plásticos',
+      description:
+        'Conjunto com 6 Potes Plásticos Herméticos 785ml',
+      price: 39,
+      link: 'https://www.amazon.com.br/dp/B0BD8Z2W4S?ref=cm_sw_r_mwn_dp_FTDQTW6SKNE4QHSBA5AE&ref_=cm_sw_r_mwn_dp_FTDQTW6SKNE4QHSBA5AE&social_share=cm_sw_r_mwn_dp_FTDQTW6SKNE4QHSBA5AE&language=en_US&th=1',
+      image: 'https://m.media-amazon.com/images/I/61-+Nb10SGL._AC_SL1200_.jpg',
+    },
+    {
+      title: 'Gamela Madeira',
+      description:
+        'Gamela Madeira Bambu Churrasco',
+      price: 140,
+      link: 'https://produto.mercadolivre.com.br/MLB-2074296348-gamela-madeira-bambu-45x30cm-churrasco-mor-_JM',
+      image: 'https://http2.mlstatic.com/D_NQ_NP_863740-MLB48102906061_112021-O.webp',
+    },
+    {
+      title: 'Cesto Prendedores',
+      description:
+        'Cesto de Prendedores de roupa Compact, 48 Peças',
+      price: 29,
+      link: 'https://www.amazon.com.br/dp/B07JCN8JBZ?ref=cm_sw_r_apan_dp_HMV8780CTA7S0PQ10MK6&ref_=cm_sw_r_apan_dp_HMV8780CTA7S0PQ10MK6&social_share=cm_sw_r_apan_dp_HMV8780CTA7S0PQ10MK6&language=pt-BR',
+      image: 'https://m.media-amazon.com/images/I/716I4qRqtqL._AC_SL1500_.jpg',
+    },
+    {
+      title: 'Varal Roupas',
+      description:
+        'Varal Roupas Íntimas 26 Prendedores Dobrável',
+      price: 26,
+      link: 'https://www.amazon.com.br/dp/B07D9T8SCG?ref=cm_sw_r_apan_dp_PB1G121Z6THFDNE1QRE3&ref_=cm_sw_r_apan_dp_PB1G121Z6THFDNE1QRE3&social_share=cm_sw_r_apan_dp_PB1G121Z6THFDNE1QRE3&language=pt-BR',
+      image: 'https://m.media-amazon.com/images/I/51pyklfUgwL._AC_SL1000_.jpg',
+    },
+    {
+      title: 'Varal de Chão',
+      description:
+        'Varal de Chão Dobrável 3 Andares',
+      price: 79,
+      link: 'https://www.amazon.com.br/dp/B01C3O0EBK?ref=cm_sw_r_apan_dp_65MJXS1W321XQEPVYD12&ref_=cm_sw_r_apan_dp_65MJXS1W321XQEPVYD12&social_share=cm_sw_r_apan_dp_65MJXS1W321XQEPVYD12&language=pt-BR',
+      image: 'https://m.media-amazon.com/images/I/51At0Jhy7qL._AC_SL1080_.jpg',
+    },
+    {
+      title: 'Garrafa',
+      description:
+        'Garrafinha de Aluminio Infantil',
+      price: 40,
+      link: 'https://www.amazon.com.br/dp/B08JXFHB77?ref=cm_sw_r_apan_dp_PKKECB8K3QJPYHSW8TTK&ref_=cm_sw_r_apan_dp_PKKECB8K3QJPYHSW8TTK&social_share=cm_sw_r_apan_dp_PKKECB8K3QJPYHSW8TTK&language=pt-BR&th=1',
+      image: 'https://m.media-amazon.com/images/I/51bAnFjt+sS._AC_SL1000_.jpg',
+    },
+    {
+      title: 'Fogão Cooktop',
+      description:
+        'Fogão Cooktop Fischer Bivolt',
+      price: 766,
+      link: 'https://www.amazon.com.br/dp/B07GWV5FCN?ref=cm_sw_r_mwn_dp_DPS6C5ZM9HPM2P1Z5Z3S&ref_=cm_sw_r_mwn_dp_DPS6C5ZM9HPM2P1Z5Z3S&social_share=cm_sw_r_mwn_dp_DPS6C5ZM9HPM2P1Z5Z3S&language=en_US',
+      image: 'https://m.media-amazon.com/images/I/51ukbnnkxPL._AC_SL1000_.jpg',
+    },
+    {
+      title: 'Forno Elétrico',
+      description:
+        'Forno Elétrico Fischer Embutir 44L',
+      price: 1080,
+      link: 'https://www.amazon.com.br/dp/B07JH9NBHH?ref=cm_sw_r_mwn_dp_5RN4PWWPSCH3ETKSQ68B&ref_=cm_sw_r_mwn_dp_5RN4PWWPSCH3ETKSQ68B&social_share=cm_sw_r_mwn_dp_5RN4PWWPSCH3ETKSQ68B&language=en_US&th=1',
+      image: 'https://m.media-amazon.com/images/I/411iIpKAHGL._AC_SL1000_.jpg',
+    },
+    {
+      title: 'Geladeira',
+      description:
+        'Geladeira Frost Free Brastemp Duplex 375L',
+      price: 3200,
+      link: 'https://www.amazon.com.br/Geladeira-Brastemp-Frost-Duplex-litros/dp/B07GWVJ8LR/ref=sr_1_12?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1APG1QO0EH3KU&dib=eyJ2IjoiMSJ9.mI20iV6TfdYjsFwkJ6GXjrVSffGDdc711FYdPBuaZ1OaGM_QoQBE06MqM7M3sR7agnw1xkIarCzqEoGwcBuBXDPIpH67LlP5t5vuBo7ulf_gTICUvoo7azSV5iTCiv5wTw00rMxtnbtBm1Zh6HuliNLW5iliu851TldMxpzGbteOrcG0GSW7HnJgNGan52adx8q3rhKSu8KbvkF7YDI1F8nK0eIgkRPtbWghAq34oaTdkRsxYaM-fDMHcoq9Q3VpfhRsDmIC0FISl5Rqmw5J1Je3CMXgFvRDzI89up7P6R4.P9660Trs9L680r4QuTgP14QIr8TjOITJt4M55jScxd4&dib_tag=se&keywords=geladeira%2B220v&qid=1718269854&s=appliances&sprefix=geladeira%2B220v%2Cappliances%2C165&sr=1-12&ufe=app_do%3Aamzn1.fos.25548f35-0de7-44b3-b28e-0f56f3f96147&th=1',
+      image: 'https://m.media-amazon.com/images/I/418W2M249EL._AC_SL1000_.jpg',
     },
   ];
 }
