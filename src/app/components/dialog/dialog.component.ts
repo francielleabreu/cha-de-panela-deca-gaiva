@@ -25,8 +25,8 @@ export class DialogComponent {
 
   copyPix() {
     navigator.clipboard.writeText(
-      `00020126590014BR.GOV.BCB.PIX0128danielmariadasilva@gmail.com0205${this.item.title}5204000053039865405${this.item.price}.005802BR5921Daniel Maria da Silva6009SAO PAULO62140510gFcbW8wILf6304E84D`
-      // '00020126330014BR.GOV.BCB.PIX011100769017002${this.item.title}5204000053039865802${this.item.price}.BR5921Debora Maria da Silva6009SAO PAULO62140510LL1vbbDuSN63041934'
+      // `00020126590014BR.GOV.BCB.PIX0128danielmariadasilva@gmail.com0205${this.item.title}5204000053039865405${this.item.price}.005802BR5921Daniel Maria da Silva6009SAO PAULO62140510gFcbW8wILf6304E84D`
+      `00020126330014BR.GOV.BCB.PIX011100769017002${this.item.title}5204000053039865802${this.item.price}.BR5921Debora Maria da Silva6009SAO PAULO62140510LL1vbbDuSN63041934`
     );
     this.firstScreen = false;
   }
@@ -47,6 +47,18 @@ export class DialogComponent {
   onChangeToBuy() {
     this.sendMoney = false
     this.sendPresent = true
+  }
 
+  redirecionarParaURL() {
+    if (this.item && this.item.link) {
+      window.open(this.item.link, '_blank');
+    } else {
+      console.error('URL não encontrada para o item selecionado.');
+    }
+  }
+
+  messagemWhatsapp() {
+    const whatsappUrl = 'https://wa.me/5551993142141?text=oladeca';
+    window.open(whatsappUrl, '_blank');
   }
 }

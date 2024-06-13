@@ -56,8 +56,16 @@
       E pronto! De uma forma ou de outra, você vai garantir que Deca e Gaiva
       recebam um presente incrível.
     </p>
-    <p-button label="Ver na loja" class="w-100 me-5" />
-    <p-button label="Avisar pelo whatsapp" class="w-100" />
+    <p-button 
+      label="Ver na loja" 
+      class="w-100 me-5" 
+      (onClick)="redirecionarParaURL()"
+    />
+    <p-button 
+      label="Avisar pelo whatsapp" 
+      class="w-100" 
+      (onClick)="messagemWhatsapp()" 
+    />
 
   </ng-container>
 
@@ -71,6 +79,10 @@
 
     <p>Agora é só colar no seu aplicativo de banco e realizar o pagamento.</p>
     <p>Ah, e não esqueça de clicar "Avisar por WhatsApp".</p>
-    <p-button label="Avisar pelo whatsapp" class="w-100" (onClick)="copyPix()" />
+    <p-button 
+      label="Avisar pelo whatsapp" 
+      class="w-100" 
+      (onClick)="messagemWhatsapp()" 
+    />
   </div>
 </p-dialog>
