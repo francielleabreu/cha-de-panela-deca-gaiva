@@ -20,14 +20,14 @@
       
       <p-button
         label="Mandar o dinheiro"
-        class="w-100 m-2 mt-4"
+        class="d-block w-100 m-2 mt-4"
         (onClick)="onChangeToSendMoney()"
       />
 
       <p-button
         label="Comprar eu mesmo"
         *ngIf="item.link"
-        class="w-100 m-2 mt-4"
+        class="d-block w-100 m-2"
         (onClick)="onChangeToBuy()"
       />
       </ng-container>
@@ -58,17 +58,19 @@
       E pronto! De uma forma ou de outra, você vai garantir que Deca e Gaiva
       recebam um presente incrível.
     </p>
-    <p-button 
-      label="Ver na loja" 
-      class="w-100 me-5 mb-2" 
-      (onClick)="redirecionarParaURL()"
-    />
-    <p-button 
-      label="Avisar pelo whatsapp" 
-      class="w-100" 
-      (onClick)="messagemWhatsappEnvio()" 
-    />
-
+    
+    <div class="text-center">
+      <p-button 
+        label="Ver na loja" 
+        class="w-100 d-block m-2 mt-4" 
+        (onClick)="redirecionarParaURL()"
+      />
+      <p-button 
+        label="Avisar pelo whatsapp" 
+        class="w-100 d-block m-2" 
+        (onClick)="messagemWhatsappEnvio()" 
+      />
+      </div>
   </ng-container>
 
   </div>
