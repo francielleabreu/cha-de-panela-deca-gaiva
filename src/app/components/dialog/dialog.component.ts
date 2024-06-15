@@ -26,7 +26,8 @@ export class DialogComponent {
   copyPix() {
     navigator.clipboard.writeText(
       // `00020126590014BR.GOV.BCB.PIX0128danielmariadasilva@gmail.com0205${this.item.title}5204000053039865405${this.item.price}.005802BR5921Daniel Maria da Silva6009SAO PAULO62140510gFcbW8wILf6304E84D`
-      `00020126330014BR.GOV.BCB.PIX011100769017002${this.item.title}5204000053039865802${this.item.price}.BR5921Debora Maria da Silva6009SAO PAULO62140510LL1vbbDuSN63041934`
+      //  00020126330014BR.GOV.BCB.PIX0111007690170025204000053039865802BR5921Debora Maria da Silva6009SAO PAULO62140510LL1vbbDuSN63041934//
+      `00769017002`
     );
     this.firstScreen = false;
   }
@@ -58,7 +59,16 @@ export class DialogComponent {
   }
 
   messagemWhatsapp() {
-    const whatsappUrl = 'https://wa.me/5551993142141?text=oladeca';
+    let textoWhatsapp = `Olá, Deca! Estou te presenteando com ${this.item.title} no valor de ${this.item.price}`;
+    textoWhatsapp = textoWhatsapp.replaceAll(" ", "%20");
+    const whatsappUrl = 'https://wa.me/5551993142141?text=' + textoWhatsapp;
+    window.open(whatsappUrl, '_blank');
+  }
+
+  messagemWhatsappEnvio() {
+    let textoWhatsapp = `Olá, Deca! Quero te presentear com ${this.item.title} e preciso do seu endereço para realizar a entrega.`;
+    textoWhatsapp = textoWhatsapp.replaceAll(" ", "%20");
+    const whatsappUrl = 'https://wa.me/5551993142141?text=' + textoWhatsapp;
     window.open(whatsappUrl, '_blank');
   }
 }

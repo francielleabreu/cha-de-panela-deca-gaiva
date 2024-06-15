@@ -4,7 +4,7 @@
     <img alt="Card" src="{{ item.image }}" class="p-5 image-card img-fluid" />
   </div>
   </ng-template>
-  <p>R$ {{ item.price }}</p>
+  <p *ngIf="item.price">R$ {{ item.price }}</p>
   <ng-template pTemplate="footer">
     <div class="w-100">
       <p-button

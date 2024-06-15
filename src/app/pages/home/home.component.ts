@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class HomeComponent {
   itens = [
     {
-      title: 'Porta Tempero',
+      title: 'Porta Temperos',
       description:
         'Porta Tempero Giratório Inox 16 Potes',
       price: 73,
@@ -82,7 +82,7 @@ export class HomeComponent {
       link: 'https://www.magazineluiza.com.br/tabua-de-churrasco-tramontina-em-madeira-com-acabamento-natural-28cm/p/ch9jch06h0/ud/tbpc/',
       image: 'https://a-static.mlcdn.com.br/1500x1500/tabua-de-churrasco-tramontina-em-madeira-com-acabamento-natural-28cm/alfixshop/11806/44496f0e31c7ed20482def9f287daea8.jpeg',
     },
-    
+
     {
       title: 'Porta Bolo',
       description:
@@ -225,7 +225,7 @@ export class HomeComponent {
         'Rolo Para Massa',
       price: 16,
       link: 'https://www.amazon.com.br/dp/B07F8LF79X?ref=cm_sw_r_mwn_dp_QJY1VQBZ1W84GFNAYFG2&ref_=cm_sw_r_mwn_dp_QJY1VQBZ1W84GFNAYFG2&social_share=cm_sw_r_mwn_dp_QJY1VQBZ1W84GFNAYFG2&language=en_US',
-      image: 'https://m.media-amazon.com/images/I/61M7bJtKLxL._AC_SL1500_.jpg',
+      image: 'assets/images/rolo-massa.png',
     },
     {
       title: 'Amassador',
@@ -242,7 +242,7 @@ export class HomeComponent {
       price: 40,
       link: 'https://www.amazon.com.br/dp/B0CX26T7KZ?ref=cm_sw_r_mwn_dp_2FBNZ7ZP2B5PJDJ9K861&ref_=cm_sw_r_mwn_dp_2FBNZ7ZP2B5PJDJ9K861&social_share=cm_sw_r_mwn_dp_2FBNZ7ZP2B5PJDJ9K861&language=en_US',
       image: 'https://m.media-amazon.com/images/I/61UbDELFHfL._AC_SL1200_.jpg',
-    },   
+    },
     {
       title: 'Kit Potes Plásticos',
       description:
@@ -250,7 +250,7 @@ export class HomeComponent {
       price: 47,
       link: 'https://www.amazon.com.br/dp/B0C4LW7VTY?ref=cm_sw_r_mwn_dp_ASRQWQW5A1FQHZ4KVVPZ&ref_=cm_sw_r_mwn_dp_ASRQWQW5A1FQHZ4KVVPZ&social_share=cm_sw_r_mwn_dp_ASRQWQW5A1FQHZ4KVVPZ&language=en_US',
       image: 'https://m.media-amazon.com/images/I/61N2YZf3I6L._AC_SX679_.jpg',
-    }, 
+    },
     {
       title: 'Kit Potes Plásticos',
       description:
@@ -300,6 +300,14 @@ export class HomeComponent {
       image: 'https://m.media-amazon.com/images/I/51At0Jhy7qL._AC_SL1080_.jpg',
     },
     {
+      title: 'Panela Pressao',
+      description:
+        'Panela de Pressão 7,6L',
+      price: 198,
+      link: 'https://www.magazineluiza.com.br/panela-de-pressao-rochedo-smart-antiaderente-fechamento-externo-76l/p/ag2776jghc/ud/udpp/',
+      image: 'https://a-static.mlcdn.com.br/1500x1500/panela-de-pressao-rochedo-smart-antiaderente-fechamento-externo-76l/lojaslebiscuit/2147441014/fc0b4e5fbb97c056bef70e43d83817ff.jpeg',
+    },
+    {
       title: 'Garrafa',
       description:
         'Garrafinha de Aluminio Infantil',
@@ -324,11 +332,11 @@ export class HomeComponent {
       image: 'https://m.media-amazon.com/images/I/411iIpKAHGL._AC_SL1000_.jpg',
     },
     {
-      title: 'Geladeira',
+      title: 'Vaquinha para Geladeira',
       description:
-        'Geladeira Frost Free Brastemp Duplex 375L',
-      price: 3200,
-      link: 'https://www.amazon.com.br/Geladeira-Brastemp-Frost-Duplex-litros/dp/B07GWVJ8LR/ref=sr_1_12?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1APG1QO0EH3KU&dib=eyJ2IjoiMSJ9.mI20iV6TfdYjsFwkJ6GXjrVSffGDdc711FYdPBuaZ1OaGM_QoQBE06MqM7M3sR7agnw1xkIarCzqEoGwcBuBXDPIpH67LlP5t5vuBo7ulf_gTICUvoo7azSV5iTCiv5wTw00rMxtnbtBm1Zh6HuliNLW5iliu851TldMxpzGbteOrcG0GSW7HnJgNGan52adx8q3rhKSu8KbvkF7YDI1F8nK0eIgkRPtbWghAq34oaTdkRsxYaM-fDMHcoq9Q3VpfhRsDmIC0FISl5Rqmw5J1Je3CMXgFvRDzI89up7P6R4.P9660Trs9L680r4QuTgP14QIr8TjOITJt4M55jScxd4&dib_tag=se&keywords=geladeira%2B220v&qid=1718269854&s=appliances&sprefix=geladeira%2B220v%2Cappliances%2C165&sr=1-12&ufe=app_do%3Aamzn1.fos.25548f35-0de7-44b3-b28e-0f56f3f96147&th=1',
+        'Ajude com o valor de sua preferência para a compra da geladeira',
+      price: '',
+      link: '',
       image: 'https://m.media-amazon.com/images/I/418W2M249EL._AC_SL1000_.jpg',
     },
   ];

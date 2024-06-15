@@ -12,11 +12,12 @@
     <h1>
       {{ item.description }}
     </h1>
-    <h2>R$ {{ item.price }}</h2>
+    <h2 *ngIf="item.price">R$ {{ item.price }}</h2>
     <div class="text-center">
       <ng-container *ngIf='!sendMoney && !sendPresent'>
         
-      <h2 class="texto-compra">Como você quer fazer?</h2>
+      <h2 *ngIf="item.link" class="texto-compra">Como você quer fazer?</h2>
+      
       <p-button
         label="Mandar o dinheiro"
         class="w-100 mx-2 mt-4"
@@ -25,6 +26,7 @@
 
       <p-button
         label="Comprar eu mesmo"
+        *ngIf="item.link"
         class="w-100 mx-2 mt-4"
         (onClick)="onChangeToBuy()"
       />
@@ -35,13 +37,13 @@
 
     <ng-container *ngIf='sendMoney'>
     <p class="texto-compra">
-      <b>Envio do Valor:</b> Você pode enviar o valor do presente para a Deca via pix copia e cola. 
+      <b>Envio do Valor:</b> Você pode enviar o valor do presente para a Deca via pix. 
     </p>
     <p class="texto-compra">
       E pronto! Assim você vai garantir que Deca e Gaiva recebam um presente incrível.
     </p>
     <p-button
-      label="Copiar PIX copia e cola"
+      label="Copiar PIX"
       class="w-100 pe-5"
       (onClick)="copyPix()"
     />
@@ -64,7 +66,7 @@
     <p-button 
       label="Avisar pelo whatsapp" 
       class="w-100" 
-      (onClick)="messagemWhatsapp()" 
+      (onClick)="messagemWhatsappEnvio()" 
     />
 
   </ng-container>
@@ -78,7 +80,7 @@
     </div>
 
     <p>Agora é só colar no seu aplicativo de banco e realizar o pagamento.</p>
-    <p>Ah, e não esqueça de clicar "Avisar por WhatsApp".</p>
+    <p>Ah, e não esqueça de clicar "Avisar por WhatsApp", assim Deca e Gaiva saberão quem os presenteou.</p>
     <p-button 
       label="Avisar pelo whatsapp" 
       class="w-100" 
