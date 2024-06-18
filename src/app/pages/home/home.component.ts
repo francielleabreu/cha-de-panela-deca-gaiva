@@ -77,12 +77,11 @@ export class HomeComponent {
     {
       title: 'Tábua Churrasco',
       description:
-        'Tábua De Churrasco Tramontina Em Madeira',
-      price: 36,
-      link: 'https://www.magazineluiza.com.br/tabua-de-churrasco-tramontina-em-madeira-com-acabamento-natural-28cm/p/ch9jch06h0/ud/tbpc/',
-      image: 'https://a-static.mlcdn.com.br/1500x1500/tabua-de-churrasco-tramontina-em-madeira-com-acabamento-natural-28cm/alfixshop/11806/44496f0e31c7ed20482def9f287daea8.jpeg',
+        'Tábua de Churrasco',
+      price: 46,
+      link: 'https://www.magazineluiza.com.br/tabua-para-corte-bamboo-50cm-x-30cm-mor/p/abj970feak/ud/cjxu/?partner_id=64068&utm_source=pdp&utm_medium=share',
+      image: 'https://a-static.mlcdn.com.br/1500x1500/tabua-para-corte-bamboo-50cm-x-30cm-mor/morcasaelazer/786/5ecd2f2feaa363b77b1639aeb10148cc.jpeg',
     },
-
     {
       title: 'Porta Bolo',
       description:
@@ -271,9 +270,9 @@ export class HomeComponent {
       title: 'Gamela Madeira',
       description:
         'Gamela Madeira Bambu Churrasco',
-      price: 140,
-      link: 'https://produto.mercadolivre.com.br/MLB-2074296348-gamela-madeira-bambu-45x30cm-churrasco-mor-_JM',
-      image: 'https://http2.mlstatic.com/D_NQ_NP_863740-MLB48102906061_112021-O.webp',
+      price: 125,
+      link: 'https://www.magazineluiza.com.br/gamela-bamboo-30cm-x-45cm-mor/p/gf4abje674/ud/gaml/?partner_id=64068&utm_source=pdp&utm_medium=share',
+      image: 'https://a-static.mlcdn.com.br/1500x1500/gamela-bamboo-30cm-x-45cm-mor/morcasaelazer/790/33d5613bca89b76bdbd6550785479fc5.jpeg',
     },
     {
       title: 'Cesto Prendedores',
