@@ -63,6 +63,7 @@ export class HomeComponent {
       description:
         'Cafeteira Expresso Dolce Gusto - 220v',
       price: 420,
+      sent: true,
       link: 'https://www.magazineluiza.com.br/cafeteira-nescafe-dolce-gusto-mini-me-preta-automatica-220v-nescafe-dolce-gusto/p/fak425ec29/ep/cfex/',
       image:
         'https://a-static.mlcdn.com.br/1500x1500/cafeteira-nescafe-dolce-gusto-mini-me-preta-automatica-110v-nescafe-dolce-gusto/nescafedolcegustooficial/57494976321fb14b8a56a98c28e3e784/d37d86c5f5c8e7b8d3d6763cc02ba1a6.jpeg',
