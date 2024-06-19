@@ -45,6 +45,7 @@ export class HomeComponent {
       description:
         'Chaleira Elétrica Com Controle de Temperatura - 220v 2l',
       price: 136,
+      sent: true,
       link: 'https://www.americanas.com.br/produto/5504370734/chaleira-eletrica-k2200-com-controle-de-temperatura-preta-220v-2-litros-black-decker?pfm_carac=chaleira-eletrica-controle-temperatura&pfm_index=1&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=62e1d24fadbc5f39b9f44e49&chave=b2wads_665dd049b3e3a80016eff8a6_21009346000120_5504370734_a22e1f24-eed7-4093-a9e9-e3d3dbb7a6d4',
       image:
         'https://images-americanas.b2w.io/produtos/5504370734/imagens/chaleira-eletrica-k2200-com-controle-de-temperatura-preta-220v-2-litros-black-decker/5504370734_2_xlarge.jpg',
@@ -399,7 +400,7 @@ export class HomeComponent {
       description:
         'Ajude com o valor de sua preferência para a compra da geladeira',
       price: 3500,
-      donated: 350,
+      donated: 600,
       link: '',
       image: 'https://m.media-amazon.com/images/I/418W2M249EL._AC_SL1000_.jpg',
     },
