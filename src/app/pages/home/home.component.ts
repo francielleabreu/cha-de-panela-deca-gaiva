@@ -78,15 +78,6 @@ export class HomeComponent {
       image: 'https://a-static.mlcdn.com.br/1500x1500/liquidificador-philco-ph900-preto-com-filtro-12-velocidades-1200w/magazineluiza/021749100/187c83df39d333ecbf91e9f1e23b288e.jpg',
     },
     {
-      title: 'Tábua Churrasco',
-      description:
-        'Tábua de Churrasco',
-      price: 46,
-      sent: true,
-      link: 'https://www.magazineluiza.com.br/tabua-para-corte-bamboo-50cm-x-30cm-mor/p/abj970feak/ud/cjxu/?partner_id=64068&utm_source=pdp&utm_medium=share',
-      image: 'https://a-static.mlcdn.com.br/1500x1500/tabua-para-corte-bamboo-50cm-x-30cm-mor/morcasaelazer/786/5ecd2f2feaa363b77b1639aeb10148cc.jpeg',
-    },
-    {
       title: 'Porta Bolo',
       description:
         'Porta Bolos Para Torta com Tampa',
@@ -101,6 +92,22 @@ export class HomeComponent {
       price: 60,
       link: 'https://www.magazineluiza.com.br/porta-pao-de-forma-rocambole-torta-fria-premium-com-tampa-uz-preto-uz-utilidades/p/bd71g26586/ud/popb/',
       image: 'https://a-static.mlcdn.com.br/1500x1500/porta-pao-de-forma-rocambole-torta-fria-premium-com-tampa-uz-preto-uz-utilidades/zanlinebazareutensilios/7895155784355/18891bec934d3513c5b7e0bedc1c3822.jpeg',
+    },
+    {
+      title: 'Forma de Silicone',
+      description:
+        'Forma Quadrada de Silicone para Air Fryer',
+      price: 30,
+      link: 'https://www.amazon.com.br/dp/B0BPYT6NL2?ref=cm_sw_r_mwn_dp_B8YBGNTA63JHEDX3XB49&ref_=cm_sw_r_mwn_dp_B8YBGNTA63JHEDX3XB49&social_share=cm_sw_r_mwn_dp_B8YBGNTA63JHEDX3XB49&language=en_US',
+      image: 'https://m.media-amazon.com/images/I/61t32B8aPCL._AC_SL1500_.jpg',
+    },
+    {
+      title: 'Lixeira Embutir',
+      description:
+        'Lixeira Embutir Granito 5 Litros ',
+      price: 134,
+      link: 'https://www.magazineluiza.com.br/lixeira-embutir-granito-em-inox-5-litros-nao-enferruja-american-steel/p/kc590f73b1/cj/lixe/',
+      image: 'https://a-static.mlcdn.com.br/1500x1500/lixeira-embutir-granito-em-inox-5-litros-nao-enferruja-american-steel/eletrocubas/100-4/07750e4c9e1f454e9192fb91a51bd9a5.jpeg',
     },
     {
       title: 'Lixeira Banheiro',
@@ -135,36 +142,12 @@ export class HomeComponent {
       image: 'https://a-static.mlcdn.com.br/1500x1500/jogo-de-toalhas-de-banho-atlantica-delicata-garden-gengibre-4-pecas/magazineluiza/220559300/234182fac69df5cfadd0e2eab31b6161.jpg',
     },
     {
-      title: 'Potes de Vidro',
-      description:
-        'Jogo 4 Potes de Vidro Hermético Tampa 4 Travas 640ml',
-      price: 53,
-      link: 'https://www.magazineluiza.com.br/jogo-4-potes-de-vidro-hermetico-marmita-tampa-4-travas-640ml-casa-linda/p/dd9a6ek93d/ud/poud/',
-      image: 'https://a-static.mlcdn.com.br/1500x1500/jogo-4-potes-de-vidro-hermetico-marmita-tampa-4-travas-640ml-casa-linda/donalaurautilidadesdomesticas/9905580976/264567d7833c18c63f0c009a55230bd1.jpeg',
-    },
-    {
       title: 'Aspirador de Pó',
       description:
         'Aspirador de Pó 2 em 1 Mondial 1100W - 220v',
       price: 350,
       link: 'https://www.magazineluiza.com.br/aspirador-de-po-2-em-1-mondial-1100w-turbo-cycle-ap-36-vermelho-e-preto/p/237623200/ep/eapa/',
       image: 'https://a-static.mlcdn.com.br/1500x1500/aspirador-de-po-2-em-1-mondial-1100w-turbo-cycle-ap-36-vermelho-e-preto/magazineluiza/237623200/052909eec7320362ad423c783ffe0c3e.jpg',
-    },
-    {
-      title: 'Vale Tramontina',
-      description:
-        'Valor para compra de acessórios de cozinha na Loja Tramontina',
-      price: 500,
-      link: 'https://tramontina.com.br/',
-      image: 'assets/images/tramontina.png',
-    },
-    {
-      title: 'Vale Casa Maria',
-      description:
-        'Valor para compra de acessórios de cozinha na Loja Casa Maria',
-      price: 300,
-      link: 'https://bazarcasamaria.com.br/',
-      image: 'assets/images/casa-maria.png',
     },
     {
       title: 'Organizadores',
@@ -181,22 +164,6 @@ export class HomeComponent {
       price: 58,
       link: 'https://produto.mercadolivre.com.br/MLB-3609808815-organizador-talher-cozinha-gaveta-escritorio-7-divisorias-_JM',
       image: 'https://http2.mlstatic.com/D_NQ_NP_2X_864614-MLB74674770178_022024-F.webp',
-    },
-    {
-      title: 'Forma de Silicone',
-      description:
-        'Forma Quadrada de Silicone para Air Fryer',
-      price: 30,
-      link: 'https://www.amazon.com.br/dp/B0BPYT6NL2?ref=cm_sw_r_mwn_dp_B8YBGNTA63JHEDX3XB49&ref_=cm_sw_r_mwn_dp_B8YBGNTA63JHEDX3XB49&social_share=cm_sw_r_mwn_dp_B8YBGNTA63JHEDX3XB49&language=en_US',
-      image: 'https://m.media-amazon.com/images/I/61t32B8aPCL._AC_SL1500_.jpg',
-    },
-    {
-      title: 'Jogo de Facas',
-      description:
-        'Jogo Facas 6 Peças Tramontina',
-      price: 80,
-      link: 'https://www.amazon.com.br/dp/B07K32CH6K?ref=cm_sw_r_mwn_dp_4GZWZ6VRNKTMQJNJWPEN&ref_=cm_sw_r_mwn_dp_4GZWZ6VRNKTMQJNJWPEN&social_share=cm_sw_r_mwn_dp_4GZWZ6VRNKTMQJNJWPEN&language=en_US',
-      image: 'https://m.media-amazon.com/images/I/518Y9L-71uL._AC_SL1000_.jpg',
     },
     {
       title: 'Mini Processador',
@@ -264,6 +231,14 @@ export class HomeComponent {
       image: 'https://m.media-amazon.com/images/I/61UbDELFHfL._AC_SL1200_.jpg',
     },
     {
+      title: 'Garrafa',
+      description:
+        'Garrafinha de Aluminio Infantil',
+      price: 40,
+      link: 'https://www.amazon.com.br/dp/B08JXFHB77?ref=cm_sw_r_apan_dp_PKKECB8K3QJPYHSW8TTK&ref_=cm_sw_r_apan_dp_PKKECB8K3QJPYHSW8TTK&social_share=cm_sw_r_apan_dp_PKKECB8K3QJPYHSW8TTK&language=pt-BR&th=1',
+      image: 'https://m.media-amazon.com/images/I/51bAnFjt+sS._AC_SL1000_.jpg',
+    },
+    {
       title: 'Kit Potes Plásticos',
       description:
         'Kit Fácil com 10 Potes Plásticos Quadrados 530ml',
@@ -288,12 +263,29 @@ export class HomeComponent {
       image: 'https://m.media-amazon.com/images/I/61-+Nb10SGL._AC_SL1200_.jpg',
     },
     {
-      title: 'Garrafa',
+      title: 'Potes de Vidro',
       description:
-        'Garrafinha de Aluminio Infantil',
-      price: 40,
-      link: 'https://www.amazon.com.br/dp/B08JXFHB77?ref=cm_sw_r_apan_dp_PKKECB8K3QJPYHSW8TTK&ref_=cm_sw_r_apan_dp_PKKECB8K3QJPYHSW8TTK&social_share=cm_sw_r_apan_dp_PKKECB8K3QJPYHSW8TTK&language=pt-BR&th=1',
-      image: 'https://m.media-amazon.com/images/I/51bAnFjt+sS._AC_SL1000_.jpg',
+        'Jogo 4 Potes de Vidro Hermético Tampa 4 Travas 640ml',
+      price: 53,
+      link: 'https://www.magazineluiza.com.br/jogo-4-potes-de-vidro-hermetico-marmita-tampa-4-travas-640ml-casa-linda/p/dd9a6ek93d/ud/poud/',
+      image: 'https://a-static.mlcdn.com.br/1500x1500/jogo-4-potes-de-vidro-hermetico-marmita-tampa-4-travas-640ml-casa-linda/donalaurautilidadesdomesticas/9905580976/264567d7833c18c63f0c009a55230bd1.jpeg',
+    },
+    {
+      title: 'Jogo de Facas',
+      description:
+        'Jogo Facas 6 Peças Tramontina',
+      price: 80,
+      link: 'https://www.amazon.com.br/dp/B07K32CH6K?ref=cm_sw_r_mwn_dp_4GZWZ6VRNKTMQJNJWPEN&ref_=cm_sw_r_mwn_dp_4GZWZ6VRNKTMQJNJWPEN&social_share=cm_sw_r_mwn_dp_4GZWZ6VRNKTMQJNJWPEN&language=en_US',
+      image: 'https://m.media-amazon.com/images/I/518Y9L-71uL._AC_SL1000_.jpg',
+    },
+    {
+      title: 'Tábua Churrasco',
+      description:
+        'Tábua de Churrasco',
+      price: 46,
+      sent: true,
+      link: 'https://www.magazineluiza.com.br/tabua-para-corte-bamboo-50cm-x-30cm-mor/p/abj970feak/ud/cjxu/?partner_id=64068&utm_source=pdp&utm_medium=share',
+      image: 'https://a-static.mlcdn.com.br/1500x1500/tabua-para-corte-bamboo-50cm-x-30cm-mor/morcasaelazer/786/5ecd2f2feaa363b77b1639aeb10148cc.jpeg',
     },
     {
       title: 'Gamela Madeira',
@@ -361,14 +353,21 @@ export class HomeComponent {
       link: 'https://www.oster.com.br/panela-eletrica-para-fondue-oster-cinza/p',
       image: 'https://jcsbrasil.vteximg.com.br/arquivos/ids/196921-1000-1000/OFND100.2--chocolate.jpg?v=637829635896900000',
     },
-    
     {
-      title: 'Lixeira Embutir',
+      title: 'Vale Tramontina',
       description:
-        'Lixeira Embutir Granito 5 Litros ',
-      price: 134,
-      link: 'https://www.magazineluiza.com.br/lixeira-embutir-granito-em-inox-5-litros-nao-enferruja-american-steel/p/kc590f73b1/cj/lixe/',
-      image: 'https://a-static.mlcdn.com.br/1500x1500/lixeira-embutir-granito-em-inox-5-litros-nao-enferruja-american-steel/eletrocubas/100-4/07750e4c9e1f454e9192fb91a51bd9a5.jpeg',
+        'Valor para compra de acessórios de cozinha na Loja Tramontina',
+      price: 500,
+      link: 'https://tramontina.com.br/',
+      image: 'assets/images/tramontina.png',
+    },
+    {
+      title: 'Vale Casa Maria',
+      description:
+        'Valor para compra de acessórios de cozinha na Loja Casa Maria',
+      price: 300,
+      link: 'https://bazarcasamaria.com.br/',
+      image: 'assets/images/casa-maria.png',
     },
     {
       title: 'Fogão Cooktop',
