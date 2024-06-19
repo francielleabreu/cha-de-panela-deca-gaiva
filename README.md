@@ -1,4 +1,4 @@
-![image](https://github.com/francielleabreu/cha-de-panela-deca-gaiva/assets/106924001/8a6d6ed5-a3cf-4cbd-8005-1cb255d5b020)
+![image](https://github.com/francielleabreu/cha-de-panela-deca-gaiva/assets/106924001/000bf0dd-8ae1-420d-9988-e10e0ee6af34)
 <!DOCTYPE html>
 <html>
 <head>
