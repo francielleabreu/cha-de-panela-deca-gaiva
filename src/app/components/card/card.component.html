@@ -5,12 +5,17 @@
   </div>
   </ng-template>
   <p *ngIf="item.price">R$ {{ item.price }}</p>
+  <span *ngIf="item.donated">
+      Já Arrecadado: R$ {{item.donated}}  
+  </span>
   <ng-template pTemplate="footer">
-    <div class="w-100">
+    <div class="w-100">    
       <p-button
-        label="Presentear"
+        label="{{item.sent ? 'Já Presenteado' : 'Presentear'}}"
         class="w-100 d-inline-grid"
         (onClick)="showDialog()"
+        [disabled]="item.sent"
+
       />
       <app-dialog [item]="item" [visible]="visible" (onHide)="onDialogHide()" />
     </div>

@@ -36,6 +36,7 @@ export class HomeComponent {
       description:
         'Fritadeira Elétrica - 220V',
       price: 332,
+      sent: true,
       link: 'https://www.magazineluiza.com.br/fritadeira-eletrica-sem-oleo-air-fryer-philips-walita-spectre-preta-41l/p/237973200/ep/efso/',
       image: 'https://a-static.mlcdn.com.br/1500x1500/fritadeira-eletrica-sem-oleo-air-fryer-philips-walita-spectre-preta-41l/magazineluiza/237973200/a7a56cd18563cd190ff8e4afeb303613.jpg',
     },
@@ -49,13 +50,13 @@ export class HomeComponent {
         'https://images-americanas.b2w.io/produtos/5504370734/imagens/chaleira-eletrica-k2200-com-controle-de-temperatura-preta-220v-2-litros-black-decker/5504370734_2_xlarge.jpg',
     },
     {
-      title: 'Mixer 3 em 1',
+      title: 'Processador',
       description:
-        'Mixer Mallory 3 em 1 Mixer, Processador e Batedor - 220V',
-      price: 129,
-      link: 'https://www.americanas.com.br/produto/7469438694/mixer-mallory-trikxer-pratic-3-em-1-mixer-processador-e-batedor-500w-branco-220v?pfm_carac=mixer&pfm_index=11&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=65e858dfcc55309385f75aec',
+        'Processador de Alimentos - 220V',
+      price: 300,
+      link: 'https://www.oster.com.br/processador-de-alimentos-oster-up-down-com-painel-touch/p',
       image:
-        'https://images-americanas.b2w.io/produtos/7469438694/imagens/mixer-mallory-trikxer-pratic-3-em-1-mixer-processador-e-batedor-500w-branco-220v/7469438694_1_xlarge.jpg',
+        'https://jcsbrasil.vteximg.com.br/arquivos/ids/180256-1000-1000/OMPR550-04.jpg?v=637474402813470000',
     },
     {
       title: 'Cafeteira Nescafe',
@@ -71,6 +72,7 @@ export class HomeComponent {
       description:
         'Liquidificador Philco 12 Velocidades 1200W - 220v',
       price: 115,
+      sent: true,
       link: 'https://www.magazineluiza.com.br/liquidificador-philco-ph900-preto-com-filtro-12-velocidades-1200w/p/021749100/ep/lqac/',
       image: 'https://a-static.mlcdn.com.br/1500x1500/liquidificador-philco-ph900-preto-com-filtro-12-velocidades-1200w/magazineluiza/021749100/187c83df39d333ecbf91e9f1e23b288e.jpg',
     },
@@ -79,6 +81,7 @@ export class HomeComponent {
       description:
         'Tábua de Churrasco',
       price: 46,
+      sent: true,
       link: 'https://www.magazineluiza.com.br/tabua-para-corte-bamboo-50cm-x-30cm-mor/p/abj970feak/ud/cjxu/?partner_id=64068&utm_source=pdp&utm_medium=share',
       image: 'https://a-static.mlcdn.com.br/1500x1500/tabua-para-corte-bamboo-50cm-x-30cm-mor/morcasaelazer/786/5ecd2f2feaa363b77b1639aeb10148cc.jpeg',
     },
@@ -107,12 +110,20 @@ export class HomeComponent {
       image: 'https://a-static.mlcdn.com.br/800x560/lixeira-pedal-cesto-cozinha-banheiro-12-litros-de-plastico-preto-home-utilities/spexpresscompany/00463/3533848df576bb4623a8ef3dbcc8f2a0.jpeg',
     },
     {
+      title: 'Escova Privada',
+      description:
+        'Escova de Limpar Vaso Sanitário Privada',
+      price: 40,
+      link: 'https://www.magazineluiza.com.br/escova-de-limpar-vaso-sanitario-privada-aco-inox-escovinha-variedades4you/p/fj8c11bege/ud/esvs/',
+      image: 'https://a-static.mlcdn.com.br/1500x1500/escova-de-limpar-vaso-sanitario-privada-aco-inox-escovinha-variedades4you/variedades4you/15876821368/c10c3ef3a6402c0b34d31750b048aa6c.jpeg',
+    },
+    {
       title: 'Secador de Cabelo',
       description:
-        'Secador de Cabelo Mondial 2000W - 220v',
-      price: 96,
-      link: 'https://www.magazineluiza.com.br/secador-de-cabelo-mondial-black-purple-scn-01-tourmaline-2000w-2-velocidades/p/227789600/pf/psec/',
-      image: 'https://a-static.mlcdn.com.br/1500x1500/secador-de-cabelo-mondial-black-purple-scn-01-tourmaline-2000w-2-velocidades/magazineluiza/227789600/f1f04dd2302f7c26f68a3e5d76f8565b.jpg',
+        'Secador de Cabelo GAMA - 220v',
+      price: 222,
+      link: 'https://www.mercadolivre.com.br/secador-de-cabelo-gama-italy-new-lumina-red-3d-bechd0000002470-vermelho-220v/p/MLB18731956?product_trigger_id=MLB18731955&attributes=COLOR%3AVermelho%2CVOLTAGE%3A220V&quantity=1',
+      image: 'https://http2.mlstatic.com/D_NQ_NP_2X_985539-MLA48885229241_012022-F.webp',
     },
     {
       title: 'Jogo de Toalhas',
@@ -161,6 +172,14 @@ export class HomeComponent {
       price: 65,
       link: 'https://www.amazon.com.br/dp/B09F71JWLX?ref=cm_sw_r_mwn_dp_YDV4NQP568TJAPE8AD13&ref_=cm_sw_r_mwn_dp_YDV4NQP568TJAPE8AD13&social_share=cm_sw_r_mwn_dp_YDV4NQP568TJAPE8AD13&language=en_US',
       image: 'https://m.media-amazon.com/images/I/51nmB7PVXjL._AC_SL1200_.jpg',
+    },
+    {
+      title: 'Organizador Talher',
+      description:
+        'Organizador Talher Cozinha Gaveta',
+      price: 58,
+      link: 'https://produto.mercadolivre.com.br/MLB-3609808815-organizador-talher-cozinha-gaveta-escritorio-7-divisorias-_JM',
+      image: 'https://http2.mlstatic.com/D_NQ_NP_2X_864614-MLB74674770178_022024-F.webp',
     },
     {
       title: 'Forma de Silicone',
@@ -215,6 +234,7 @@ export class HomeComponent {
       description:
         'Secador De Salada 4 L ',
       price: 54,
+      sent: true,
       link: 'https://www.amazon.com.br/dp/B07CFW6DP2?ref=cm_sw_r_mwn_dp_8MJJE5JKTPTVX704NWWA&ref_=cm_sw_r_mwn_dp_8MJJE5JKTPTVX704NWWA&social_share=cm_sw_r_mwn_dp_8MJJE5JKTPTVX704NWWA&language=en_US',
       image: 'https://m.media-amazon.com/images/I/41+NvNgl76L._AC_SL1000_.jpg',
     },
@@ -267,12 +287,37 @@ export class HomeComponent {
       image: 'https://m.media-amazon.com/images/I/61-+Nb10SGL._AC_SL1200_.jpg',
     },
     {
+      title: 'Garrafa',
+      description:
+        'Garrafinha de Aluminio Infantil',
+      price: 40,
+      link: 'https://www.amazon.com.br/dp/B08JXFHB77?ref=cm_sw_r_apan_dp_PKKECB8K3QJPYHSW8TTK&ref_=cm_sw_r_apan_dp_PKKECB8K3QJPYHSW8TTK&social_share=cm_sw_r_apan_dp_PKKECB8K3QJPYHSW8TTK&language=pt-BR&th=1',
+      image: 'https://m.media-amazon.com/images/I/51bAnFjt+sS._AC_SL1000_.jpg',
+    },
+    {
       title: 'Gamela Madeira',
       description:
         'Gamela Madeira Bambu Churrasco',
       price: 125,
+      sent: true,
       link: 'https://www.magazineluiza.com.br/gamela-bamboo-30cm-x-45cm-mor/p/gf4abje674/ud/gaml/?partner_id=64068&utm_source=pdp&utm_medium=share',
       image: 'https://a-static.mlcdn.com.br/1500x1500/gamela-bamboo-30cm-x-45cm-mor/morcasaelazer/790/33d5613bca89b76bdbd6550785479fc5.jpeg',
+    },
+    {
+      title: 'Kit Espeto',
+      description:
+        'Kit Espeto Tradicional Cabo de Madeira',
+      price: 190,
+      link: 'https://espetogauchooficial.com.br/product/kit-espeto-c-cabo-tradicional/',
+      image: 'https://espetogauchooficial.com.br/wp-content/uploads/2022/09/Sem-nome-1500-%C3%97-2000-px-1500-%C3%97-1500-px-4-1.png',
+    },
+    {
+      title: 'Rodo Esfregão',
+      description:
+        'Rodo Mágico Esfregão Espuma',
+      price: 72,
+      link: 'https://www.magazineluiza.com.br/rodo-magico-esfregao-espuma-pva-original-com-1-refil-extra/p/hk749f92a7/ud/rodu/',
+      image: 'https://a-static.mlcdn.com.br/1500x1500/rodo-magico-esfregao-espuma-pva-original-com-1-refil-extra/vendasshop/27249p/9583a2c030540fe02e1b22643fa7bae6.jpeg',
     },
     {
       title: 'Cesto Prendedores',
@@ -303,24 +348,43 @@ export class HomeComponent {
       description:
         'Panela de Pressão 7,6L',
       price: 198,
+      sent: true,
       link: 'https://www.magazineluiza.com.br/panela-de-pressao-rochedo-smart-antiaderente-fechamento-externo-76l/p/ag2776jghc/ud/udpp/',
       image: 'https://a-static.mlcdn.com.br/1500x1500/panela-de-pressao-rochedo-smart-antiaderente-fechamento-externo-76l/lojaslebiscuit/2147441014/fc0b4e5fbb97c056bef70e43d83817ff.jpeg',
     },
     {
-      title: 'Garrafa',
+      title: 'Panela Fondue',
       description:
-        'Garrafinha de Aluminio Infantil',
-      price: 40,
-      link: 'https://www.amazon.com.br/dp/B08JXFHB77?ref=cm_sw_r_apan_dp_PKKECB8K3QJPYHSW8TTK&ref_=cm_sw_r_apan_dp_PKKECB8K3QJPYHSW8TTK&social_share=cm_sw_r_apan_dp_PKKECB8K3QJPYHSW8TTK&language=pt-BR&th=1',
-      image: 'https://m.media-amazon.com/images/I/51bAnFjt+sS._AC_SL1000_.jpg',
+        'Panela Elétrica para Fondue',
+      price: 270,
+      link: 'https://www.oster.com.br/panela-eletrica-para-fondue-oster-cinza/p',
+      image: 'https://jcsbrasil.vteximg.com.br/arquivos/ids/196921-1000-1000/OFND100.2--chocolate.jpg?v=637829635896900000',
+    },
+    
+    {
+      title: 'Lixeira Embutir',
+      description:
+        'Lixeira Embutir Granito 5 Litros ',
+      price: 134,
+      link: 'https://www.magazineluiza.com.br/lixeira-embutir-granito-em-inox-5-litros-nao-enferruja-american-steel/p/kc590f73b1/cj/lixe/',
+      image: 'https://a-static.mlcdn.com.br/1500x1500/lixeira-embutir-granito-em-inox-5-litros-nao-enferruja-american-steel/eletrocubas/100-4/07750e4c9e1f454e9192fb91a51bd9a5.jpeg',
     },
     {
       title: 'Fogão Cooktop',
       description:
         'Fogão Cooktop Fischer Bivolt',
       price: 766,
+      sent: true,
       link: 'https://www.amazon.com.br/dp/B07GWV5FCN?ref=cm_sw_r_mwn_dp_DPS6C5ZM9HPM2P1Z5Z3S&ref_=cm_sw_r_mwn_dp_DPS6C5ZM9HPM2P1Z5Z3S&social_share=cm_sw_r_mwn_dp_DPS6C5ZM9HPM2P1Z5Z3S&language=en_US',
       image: 'https://m.media-amazon.com/images/I/51ukbnnkxPL._AC_SL1000_.jpg',
+    },
+    {
+      title: 'Micro-ondas',
+      description:
+        'Micro-ondas Philco 34L',
+      price: 600,
+      link: 'https://www.philco.com.br/micro_ondas_philco_33_litros_espelhado/p?gad_source=1&gclid=Cj0KCQjw4MSzBhC8ARIsAPFOuyWEjydEWa86Iuo8L7tHe3L0uBRHElTQ3lLiEcGIQUDfxvydGFTUXPMaApXREALw_wcB&idsku=8957&skuId=8957',
+      image: 'assets/images/microondas.png',
     },
     {
       title: 'Forno Elétrico',
@@ -334,7 +398,8 @@ export class HomeComponent {
       title: 'Vaquinha para Geladeira',
       description:
         'Ajude com o valor de sua preferência para a compra da geladeira',
-      price: '',
+      price: 3500,
+      donated: 350,
       link: '',
       image: 'https://m.media-amazon.com/images/I/418W2M249EL._AC_SL1000_.jpg',
     },
