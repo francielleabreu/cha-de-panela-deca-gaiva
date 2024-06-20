@@ -384,6 +384,7 @@ export class HomeComponent {
       description:
         'Micro-ondas Philco 34L',
       price: 600,
+      sent: true,
       link: 'https://www.philco.com.br/micro_ondas_philco_33_litros_espelhado/p?gad_source=1&gclid=Cj0KCQjw4MSzBhC8ARIsAPFOuyWEjydEWa86Iuo8L7tHe3L0uBRHElTQ3lLiEcGIQUDfxvydGFTUXPMaApXREALw_wcB&idsku=8957&skuId=8957',
       image: 'assets/images/microondas.png',
     },
@@ -400,7 +401,7 @@ export class HomeComponent {
       description:
         'Ajude com o valor de sua preferência para a compra da geladeira',
       price: 3500,
-      donated: 600,
+      donated: 1465,
       link: '',
       image: 'https://m.media-amazon.com/images/I/418W2M249EL._AC_SL1000_.jpg',
     },
