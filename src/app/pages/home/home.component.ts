@@ -20,6 +20,7 @@ export class HomeComponent {
       description:
         'Jogo Kit Com 12 Peças Utensílios De Cozinha',
       price: 55,
+      sent: true,
       link: 'https://www.amazon.com.br/dp/B0BXQM66XR?ref=cm_sw_r_mwn_dp_6W5E84CVH1M4MZCFM8T4&ref_=cm_sw_r_mwn_dp_6W5E84CVH1M4MZCFM8T4&social_share=cm_sw_r_mwn_dp_6W5E84CVH1M4MZCFM8T4&language=en_US&th=1',
       image: 'https://m.media-amazon.com/images/I/51c6OkPOPKL._AC_SL1000_.jpg',
     },
@@ -83,6 +84,7 @@ export class HomeComponent {
       description:
         'Porta Bolos Para Torta com Tampa',
       price: 55,
+      sent: true,
       link: 'https://www.magazineluiza.com.br/porta-bolos-boleira-suporte-para-torta-com-tampa-tres-triangulos/p/eeg7d6086g/ud/bole/',
       image: 'https://a-static.mlcdn.com.br/800x560/porta-bolos-boleira-suporte-para-torta-com-tampa-tres-triangulos/tuberiascomercioltda/tb000042/0c6e009f9e220b6114554af4fa27b1f5.jpeg',
     },
@@ -131,6 +133,7 @@ export class HomeComponent {
       description:
         'Secador de Cabelo GAMA - 220v',
       price: 222,
+      sent: true,
       link: 'https://www.mercadolivre.com.br/secador-de-cabelo-gama-italy-new-lumina-red-3d-bechd0000002470-vermelho-220v/p/MLB18731956?product_trigger_id=MLB18731955&attributes=COLOR%3AVermelho%2CVOLTAGE%3A220V&quantity=1',
       image: 'https://http2.mlstatic.com/D_NQ_NP_2X_985539-MLA48885229241_012022-F.webp',
     },
@@ -163,6 +166,7 @@ export class HomeComponent {
       description:
         'Organizador Talher Cozinha Gaveta',
       price: 58,
+      sent: true,
       link: 'https://produto.mercadolivre.com.br/MLB-3609808815-organizador-talher-cozinha-gaveta-escritorio-7-divisorias-_JM',
       image: 'https://http2.mlstatic.com/D_NQ_NP_2X_864614-MLB74674770178_022024-F.webp',
     },
@@ -171,6 +175,7 @@ export class HomeComponent {
       description:
         'Mini Processador Triturador Mixer de Alimento Manual',
       price: 13,
+      sent: true,
       link: 'https://www.amazon.com.br/dp/B0B2QFX5SC?ref=cm_sw_r_mwn_dp_D2MYWA2QSQXNJTN96HPR&ref_=cm_sw_r_mwn_dp_D2MYWA2QSQXNJTN96HPR&social_share=cm_sw_r_mwn_dp_D2MYWA2QSQXNJTN96HPR&language=en_US',
       image: 'https://m.media-amazon.com/images/I/51Wh9sy5i6L._AC_SL1500_.jpg',
     },
@@ -359,6 +364,7 @@ export class HomeComponent {
       description:
         'Valor para compra de acessórios de cozinha na Loja Tramontina',
       price: 500,
+      sent: true,
       link: 'https://tramontina.com.br/',
       image: 'assets/images/tramontina.png',
     },
@@ -401,7 +407,7 @@ export class HomeComponent {
       description:
         'Ajude com o valor de sua preferência para a compra da geladeira',
       price: 3500,
-      donated: 1465,
+      donated: 1350,
       link: '',
       image: 'https://m.media-amazon.com/images/I/418W2M249EL._AC_SL1000_.jpg',
     },
