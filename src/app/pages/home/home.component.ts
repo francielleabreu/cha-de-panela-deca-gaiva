@@ -9,6 +9,7 @@ export class HomeComponent {
   itens = [
     {
       title: 'Porta Temperos',
+      sent: true,
       description:
         'Porta Tempero Giratório Inox 16 Potes',
       price: 73,
