@@ -103,6 +103,7 @@ export class HomeComponent {
       description:
         'Forma Quadrada de Silicone para Air Fryer',
       price: 30,
+      sent: true,
       link: 'https://www.amazon.com.br/dp/B0BPYT6NL2?ref=cm_sw_r_mwn_dp_B8YBGNTA63JHEDX3XB49&ref_=cm_sw_r_mwn_dp_B8YBGNTA63JHEDX3XB49&social_share=cm_sw_r_mwn_dp_B8YBGNTA63JHEDX3XB49&language=en_US',
       image: 'https://m.media-amazon.com/images/I/61t32B8aPCL._AC_SL1500_.jpg',
     },
