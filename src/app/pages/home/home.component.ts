@@ -29,6 +29,7 @@ export class HomeComponent {
       description:
         'Jogo 6 Copo de vidro 360ml',
       price: 37,
+      sent: true,
       link: 'https://www.magazineluiza.com.br/jogo-6-copo-de-vidro-casual-360ml-class-home/p/fkk1588ke9/ud/coco/',
       image: 'https://a-static.mlcdn.com.br/1500x1500/jogo-6-copo-de-vidro-casual-360ml-class-home/lizpremium/1646-6/ee586267080518c701738880507b8243.jpeg',
     },
