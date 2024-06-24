@@ -145,6 +145,7 @@ export class HomeComponent {
       description:
         'Jogo de Toalhas de Banho 4 Peças',
       price: 54,
+      sent: true,
       link: 'https://www.magazineluiza.com.br/jogo-de-toalhas-de-banho-atlantica-delicata-garden-gengibre-4-pecas/p/220559300/cm/joto/',
       image: 'https://a-static.mlcdn.com.br/1500x1500/jogo-de-toalhas-de-banho-atlantica-delicata-garden-gengibre-4-pecas/magazineluiza/220559300/234182fac69df5cfadd0e2eab31b6161.jpg',
     },
@@ -161,6 +162,7 @@ export class HomeComponent {
       description:
         'Kit c/ 3 Caixas Organizadoras c/ Tampa',
       price: 65,
+      sent: true,
       link: 'https://www.amazon.com.br/dp/B09F71JWLX?ref=cm_sw_r_mwn_dp_YDV4NQP568TJAPE8AD13&ref_=cm_sw_r_mwn_dp_YDV4NQP568TJAPE8AD13&social_share=cm_sw_r_mwn_dp_YDV4NQP568TJAPE8AD13&language=en_US',
       image: 'https://m.media-amazon.com/images/I/51nmB7PVXjL._AC_SL1200_.jpg',
     },
