@@ -278,6 +278,7 @@ export class HomeComponent {
       description:
         'Jogo 4 Potes de Vidro Hermético Tampa 4 Travas 640ml',
       price: 53,
+      sent: true;
       link: 'https://www.magazineluiza.com.br/jogo-4-potes-de-vidro-hermetico-marmita-tampa-4-travas-640ml-casa-linda/p/dd9a6ek93d/ud/poud/',
       image: 'https://a-static.mlcdn.com.br/1500x1500/jogo-4-potes-de-vidro-hermetico-marmita-tampa-4-travas-640ml-casa-linda/donalaurautilidadesdomesticas/9905580976/264567d7833c18c63f0c009a55230bd1.jpeg',
     },
@@ -412,7 +413,7 @@ export class HomeComponent {
       description:
         'Ajude com o valor de sua preferência para a compra da geladeira',
       price: 3500,
-      donated: 1350,
+      donated: 1870,
       link: '',
       image: 'https://m.media-amazon.com/images/I/418W2M249EL._AC_SL1000_.jpg',
     },
